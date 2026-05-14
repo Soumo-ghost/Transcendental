@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "Build Raylib Project (itch.io version)",
+            "command": "C:\\raylib\\w64devkit\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-O2",
+                "-B", "C:\\raylib\\w64devkit\\bin",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-I", "C:\\raylib\\raylib\\src",
+                "-L", "C:\\raylib\\raylib\\src",
+                "-lraylib",
+                "-lopengl32",
+                "-lgdi32",
+                "-lwinmm"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Compiler: g++ from Raylib itch.io installer"
+        }
+    ]
+}
