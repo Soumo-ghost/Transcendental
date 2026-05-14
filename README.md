@@ -19,9 +19,9 @@ Advance, highly interactive 3D computational physics engine built in C++ and Ray
 
 ![Simulation Gif](Simulation.gif)
 
-![Ui](Screenshot 2026-05-14 163950.png)
+![Ui](Ui.png)
 
-![Data Logger](Screenshot 2026-05-14 164014.png)
+![Data Logger](Dara.png)
 
 ## 🔬 Theoretical Background
 
